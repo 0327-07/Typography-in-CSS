@@ -1,0 +1,183 @@
+header {
+    text-align: center;
+    background-color:rgb(82, 82, 158) ;
+    margin: 0 5%;
+    line-height: 2;
+    border-radius: 10px;
+}
+.Nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+  }
+  
+ .Nav li {
+    display: inline;
+  
+  }
+
+main {
+    margin: 1% 5%;
+    background-color: rgb(173, 173, 228);
+    padding: 5%;
+    box-shadow:20px 10px 15px 1px rgba(255,135,208,0.19);
+    border-radius: 10px;
+   
+}
+.aside{
+    margin-left: 20px;
+}
+section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+    
+}
+
+.block {
+    border-bottom: 4px solid  rgb(226, 126, 126);
+    box-shadow: 0 4px 2px -2px gray;
+
+}
+.property {
+    font-size: large;
+}
+.example>p {
+    margin: 0.5em 0;
+}
+
+.description {
+    background-color: yellow;
+    line-height: 2;
+    padding: 1%;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.example-preview{
+    width: 30em;
+    height: 8rem;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    box-shadow:20px 10px 15px 1px rgba(255,135,208,0.21) ;
+    border-radius: 10px;
+    background-color: white;
+}
+.example-browser {
+width: 100%;
+height: 20%;
+background-color: rgb(226, 126, 126);
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+}
+.example-output {
+    text-align: center;
+
+  } 
+
+.color-transparent {
+    color: transparent;
+}
+
+.color-green {
+    color: green;
+}
+.font-style-italic {
+    font-style:italic;
+}
+
+.font-variant-small-caps {
+    font-variant: small-caps;
+}
+
+.font-weight-bold{
+    font-weight: bold;
+}
+
+
+.font-weight-600 {
+    font-weight: bold;
+}
+
+ul {
+    display: list-item;
+}
+.font-family-serif {
+    font-family: serif;
+}
+
+.font-family-monospace {
+    font-family: monospace;
+}
+
+.letter-spacing-2px {
+    letter-spacing: 2px;
+}
+
+.letter-spacing-1em {
+   letter-spacing: 1em;
+}
+.text-decoration-wavy {
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+}
+
+.text-align-right {
+    text-align: right;
+}
+
+.text-align-left {
+    text-align: left;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.line-height-1.6 {
+line-height: 1.6
+}
+
+.line-height-30px {
+    line-height: 30px;
+}
+
+.text-indent-40px {
+    text-indent: 40px;
+}
+
+.text-indent--2em {
+    text-indent: -2em;
+}
+
+.text-shadow-2px-6px {
+    text-shadow: 2px 6px ;
+}
+
+.text-shadow-2px-6px-red {
+    text-shadow: 2px 6px red;
+}
+
+.text-shadow-2px-4px-10-red {
+    text-shadow: 2px 4px 10px red;
+}
+
+.text-transform-capitalize {
+    text-transform: capitalize;
+}
+
+.text-transform-uppercase {
+    text-transform: uppercase;
+}
+
+.text-transform-lowercase {
+    text-transform: lowercase;
+}
